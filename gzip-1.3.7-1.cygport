@@ -1,6 +1,0 @@
-DESCRIPTION="GZip compression utility"
-HOMEPAGE="http://www.gnu.org/software/gzip/gzip.html"
-SRC_URI="ftp://alpha.gnu.org/gnu/gzip/${P}.tar.gz 
-	ftp://alpha.gnu.org/gnu/gzip/${P}.tar.gz.sig"
-
-DIFF_EXCLUDES="gzip.info stamp-vti version.texi"

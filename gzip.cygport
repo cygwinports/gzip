@@ -1,0 +1,13 @@
+NAME="gzip"
+VERSION=1.4
+RELEASE=1
+CATEGORY="Base"
+SUMMARY="GNU compression utility"
+DESCRIPTION="gzip (GNU zip) is a compression utility designed to be a
+replacement for 'compress'. Its main advantages over compress are much
+better compression and freedom from patented algorithms."
+DESCRIPTION="GZip compression utility"
+HOMEPAGE="http://www.gnu.org/software/gzip/gzip.html"
+SRC_URI="mirror://gnu/gzip/${P}.tar.gz"
+
+DIFF_EXCLUDES="config.hin gzip.info stamp-vti version.texi"
